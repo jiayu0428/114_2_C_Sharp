@@ -1,0 +1,117 @@
+﻿namespace Phonebook
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.promptLabel = new System.Windows.Forms.Label();
+            this.nameListBox = new System.Windows.Forms.ListBox();
+            this.selectedPhoneDescriptionLabel = new System.Windows.Forms.Label();
+            this.phoneLabel = new System.Windows.Forms.Label();
+            this.exitButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+          // promptLabel - 提示標籤：用於提示使用者選擇姓名
+            // 
+            this.promptLabel.AutoSize = true;
+            this.promptLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.promptLabel.Location = new System.Drawing.Point(50, 15);
+            this.promptLabel.Name = "promptLabel";
+            this.promptLabel.Size = new System.Drawing.Size(180, 32);
+            this.promptLabel.TabIndex = 0;
+            this.promptLabel.Text = "選擇一個姓名";
+            // 
+            // nameListBox - 姓名列表框：顯示通訊錄中的所有姓名
+            // 
+            this.nameListBox.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.nameListBox.FormattingEnabled = true;
+            this.nameListBox.ItemHeight = 30;
+            this.nameListBox.Location = new System.Drawing.Point(30, 60);
+            this.nameListBox.Name = "nameListBox";
+            this.nameListBox.Size = new System.Drawing.Size(200, 154);
+            this.nameListBox.TabIndex = 1;
+            this.nameListBox.SelectedIndexChanged += new System.EventHandler(this.nameListBox_SelectedIndexChanged);
+            // 
+            // selectedPhoneDescriptionLabel - 電話號碼描述標籤
+            // 
+            this.selectedPhoneDescriptionLabel.AutoSize = true;
+            this.selectedPhoneDescriptionLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.selectedPhoneDescriptionLabel.Location = new System.Drawing.Point(260, 60);
+            this.selectedPhoneDescriptionLabel.Name = "selectedPhoneDescriptionLabel";
+            this.selectedPhoneDescriptionLabel.Size = new System.Drawing.Size(150, 32);
+            this.selectedPhoneDescriptionLabel.TabIndex = 2;
+            this.selectedPhoneDescriptionLabel.Text = "電話號碼";
+            // 
+            // phoneLabel - 電話號碼顯示標籤：顯示選中聯絡人的電話號碼
+            // 
+            this.phoneLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.phoneLabel.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.phoneLabel.Location = new System.Drawing.Point(260, 100);
+            this.phoneLabel.Name = "phoneLabel";
+            this.phoneLabel.Size = new System.Drawing.Size(200, 40);
+            this.phoneLabel.TabIndex = 3;
+            this.phoneLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // exitButton - 結束按鈕：關閉應用程式
+            // 
+            this.exitButton.Font = new System.Drawing.Font("微軟正黑體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.exitButton.Location = new System.Drawing.Point(190, 240);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(120, 45);
+            this.exitButton.TabIndex = 4;
+            this.exitButton.Text = "結束";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
+            // 
+            // Form1 - 通訊錄應用程式主表單
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(500, 310);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.phoneLabel);
+            this.Controls.Add(this.selectedPhoneDescriptionLabel);
+            this.Controls.Add(this.nameListBox);
+            this.Controls.Add(this.promptLabel);
+            this.Name = "Form1";
+            this.Text = "通訊錄";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label promptLabel;
+        private System.Windows.Forms.ListBox nameListBox;
+        private System.Windows.Forms.Label selectedPhoneDescriptionLabel;
+        private System.Windows.Forms.Label phoneLabel;
+        private System.Windows.Forms.Button exitButton;
+    }
+}
+
