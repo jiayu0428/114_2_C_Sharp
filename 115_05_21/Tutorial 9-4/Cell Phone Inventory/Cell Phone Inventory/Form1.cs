@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Cell_Phone_Inventory
+{
+    public partial class Form1 : Form
+    {
+        // 用於儲存手機物件的列表
+        List<CellPhone> phoneList = new List<CellPhone>();
+
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        // GetPhoneData 方法接受一個手機物件作為參數
+        // 它將使用者輸入的資料分配給物件的屬性
+        private void GetPhoneData(CellPhone phone)
+        {
+            // 臨時變數用於儲存價格
+            decimal price;
+
+            // 取得手機的品牌
+            phone.Brand = brandTextBox.Text;
+
+            // 取得手機的型號
+            phone.Model = modelTextBox.Text;
+
+            // 取得手機的價格
+            if (decimal.TryParse(priceTextBox.Text, out price))
+            {
+                phone.Price = price;
+            }
+            else
+            {
+                // 顯示錯誤訊息
+                MessageBox.Show("價格無效");
+            }
+        }
+
+        private void addPhoneButton_Click(object sender, EventArgs e)
+        {
+            CellPhone newPhone = new CellPhone(); // 建立新的手機物件
+            GetPhoneData(newPhone); 
+            phoneList.Add(newPhone); // 從使用者輸入獲取手機資料
+
+            // 更新 ListBox 顯示手機資訊
+            phoneListBox.Items.Add($"{newPhone.Brand} {newPhone.Model}");
+
+            // 清空輸入欄位
+            brandTextBox.Clear();
+            modelTextBox.Clear();
+            priceTextBox.Clear();
+
+            // 將焦點設置回品牌輸入框
+            brandTextBox.Focus();
+        }
+
+        private void phoneListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int index = phoneListBox.SelectedIndex;
+
+            MessageBox.Show(phoneList[index].Price.ToString("C"));
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // 關閉表單
+            this.Close();
+        }
+    }
+}
