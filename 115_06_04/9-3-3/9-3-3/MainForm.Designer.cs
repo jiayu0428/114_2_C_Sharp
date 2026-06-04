@@ -1,0 +1,128 @@
+﻿namespace _9_3_3
+{
+    partial class MainForm
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        private System.Windows.Forms.Button buttonOpenAccount;
+        private System.Windows.Forms.Button buttonDeposit;
+        private System.Windows.Forms.Button buttonWithdraw;
+        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Label labelAccountCount;
+        private System.Windows.Forms.Label labelAccountInfo;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.buttonOpenAccount = new System.Windows.Forms.Button();
+            this.buttonDeposit = new System.Windows.Forms.Button();
+            this.buttonWithdraw = new System.Windows.Forms.Button();
+            this.buttonExit = new System.Windows.Forms.Button();
+            this.labelAccountCount = new System.Windows.Forms.Label();
+            this.labelAccountInfo = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // buttonOpenAccount
+            // 
+            this.buttonOpenAccount.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonOpenAccount.Location = new System.Drawing.Point(50, 50);
+            this.buttonOpenAccount.Name = "buttonOpenAccount";
+            this.buttonOpenAccount.Size = new System.Drawing.Size(100, 50);
+            this.buttonOpenAccount.TabIndex = 0;
+            this.buttonOpenAccount.Text = "開戶";
+            this.buttonOpenAccount.UseVisualStyleBackColor = true;
+            this.buttonOpenAccount.Click += new System.EventHandler(this.buttonOpenAccount_Click);
+            // 
+            // buttonDeposit
+            // 
+            this.buttonDeposit.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonDeposit.Location = new System.Drawing.Point(184, 50);
+            this.buttonDeposit.Name = "buttonDeposit";
+            this.buttonDeposit.Size = new System.Drawing.Size(100, 50);
+            this.buttonDeposit.TabIndex = 1;
+            this.buttonDeposit.Text = "存款";
+            this.buttonDeposit.UseVisualStyleBackColor = true;
+            // 
+            // buttonWithdraw
+            // 
+            this.buttonWithdraw.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonWithdraw.Location = new System.Drawing.Point(334, 50);
+            this.buttonWithdraw.Name = "buttonWithdraw";
+            this.buttonWithdraw.Size = new System.Drawing.Size(100, 50);
+            this.buttonWithdraw.TabIndex = 2;
+            this.buttonWithdraw.Text = "提款";
+            this.buttonWithdraw.UseVisualStyleBackColor = true;
+            // 
+            // buttonExit
+            // 
+            this.buttonExit.Font = new System.Drawing.Font("新細明體", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonExit.Location = new System.Drawing.Point(184, 155);
+            this.buttonExit.Name = "buttonExit";
+            this.buttonExit.Size = new System.Drawing.Size(100, 50);
+            this.buttonExit.TabIndex = 3;
+            this.buttonExit.Text = "離開";
+            this.buttonExit.UseVisualStyleBackColor = true;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            // 
+            // labelAccountCount
+            // 
+            this.labelAccountCount.AutoSize = true;
+            this.labelAccountCount.Font = new System.Drawing.Font("新細明體", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labelAccountCount.Location = new System.Drawing.Point(50, 230);
+            this.labelAccountCount.Name = "labelAccountCount";
+            this.labelAccountCount.Size = new System.Drawing.Size(104, 19);
+            this.labelAccountCount.TabIndex = 4;
+            this.labelAccountCount.Text = "已開戶帳戶數：0";
+            // 
+            // labelAccountInfo
+            // 
+            this.labelAccountInfo.AutoSize = true;
+            this.labelAccountInfo.Font = new System.Drawing.Font("新細明體", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labelAccountInfo.Location = new System.Drawing.Point(50, 260);
+            this.labelAccountInfo.Name = "labelAccountInfo";
+            this.labelAccountInfo.Size = new System.Drawing.Size(0, 15);
+            this.labelAccountInfo.TabIndex = 5;
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(512, 400);
+            this.Controls.Add(this.labelAccountInfo);
+            this.Controls.Add(this.labelAccountCount);
+            this.Controls.Add(this.buttonOpenAccount);
+            this.Controls.Add(this.buttonDeposit);
+            this.Controls.Add(this.buttonWithdraw);
+            this.Controls.Add(this.buttonExit);
+            this.Name = "MainForm";
+            this.Text = "銀行系統";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+    }
+}
+

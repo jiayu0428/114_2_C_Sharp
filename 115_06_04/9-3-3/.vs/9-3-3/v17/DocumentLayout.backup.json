@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\depositform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\depositform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\depositform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\depositform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\depositform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\depositform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\withdrawform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\withdrawform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\openaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\openaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\openaccountform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\openaccountform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\openaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\openaccountform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|c:\\users\\m303\\desktop\\114_2_c_sharp\\115_06_04\\9-3-3\\9-3-3\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16085E4D-8ED2-4BA9-B28F-6921051D6C4B}|9-3-3\\9-3-3.csproj|solutionrelative:9-3-3\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DepositForm.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\DepositForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.cs",
+              "RelativeToolTip": "9-3-3\\DepositForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:37:26.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DepositForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.Designer.cs",
+              "RelativeDocumentMoniker": "9-3-3\\DepositForm.Designer.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.Designer.cs",
+              "RelativeToolTip": "9-3-3\\DepositForm.Designer.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAkwJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:34:44.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OpenAccountForm.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\OpenAccountForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.cs",
+              "RelativeToolTip": "9-3-3\\OpenAccountForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:21:04.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OpenAccountForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.Designer.cs",
+              "RelativeDocumentMoniker": "9-3-3\\OpenAccountForm.Designer.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.Designer.cs",
+              "RelativeToolTip": "9-3-3\\OpenAccountForm.Designer.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAQwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:17:56.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OpenAccountForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\OpenAccountForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\OpenAccountForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "9-3-3\\OpenAccountForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T07:16:27.604Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "9-3-3\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.Designer.cs",
+              "RelativeToolTip": "9-3-3\\MainForm.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:49:19.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\MainForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.cs",
+              "RelativeToolTip": "9-3-3\\MainForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:46:04.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WithdrawForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\WithdrawForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\WithdrawForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\WithdrawForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "9-3-3\\WithdrawForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:45:15.153Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DepositForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\DepositForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\DepositForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "9-3-3\\DepositForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:44:49.443Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\BankAccount.cs",
+              "RelativeDocumentMoniker": "9-3-3\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\BankAccount.cs",
+              "RelativeToolTip": "9-3-3\\BankAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:41:36.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [\u8A2D\u8A08]",
+              "DocumentMoniker": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.cs",
+              "RelativeDocumentMoniker": "9-3-3\\MainForm.cs",
+              "ToolTip": "C:\\Users\\m303\\Desktop\\114_2_C_Sharp\\115_06_04\\9-3-3\\9-3-3\\MainForm.cs [\u8A2D\u8A08]",
+              "RelativeToolTip": "9-3-3\\MainForm.cs [\u8A2D\u8A08]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T06:39:37.293Z",
+              "EditorCaption": " [\u8A2D\u8A08]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

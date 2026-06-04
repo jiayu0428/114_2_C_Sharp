@@ -1,0 +1,131 @@
+﻿namespace _9_3_3
+{
+    partial class OpenAccountForm
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        private System.Windows.Forms.Label labelAccountNumber;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Label labelOpeningAmount;
+        private System.Windows.Forms.TextBox textBoxAccountNumber;
+        private System.Windows.Forms.TextBox textBoxName;
+        private System.Windows.Forms.TextBox textBoxOpeningAmount;
+        private System.Windows.Forms.Button buttonOpenAccount;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.labelAccountNumber = new System.Windows.Forms.Label();
+            this.labelName = new System.Windows.Forms.Label();
+            this.labelOpeningAmount = new System.Windows.Forms.Label();
+            this.textBoxAccountNumber = new System.Windows.Forms.TextBox();
+            this.textBoxName = new System.Windows.Forms.TextBox();
+            this.textBoxOpeningAmount = new System.Windows.Forms.TextBox();
+            this.buttonOpenAccount = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // labelAccountNumber
+            // 
+            this.labelAccountNumber.AutoSize = true;
+            this.labelAccountNumber.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labelAccountNumber.Location = new System.Drawing.Point(30, 30);
+            this.labelAccountNumber.Name = "labelAccountNumber";
+            this.labelAccountNumber.Size = new System.Drawing.Size(82, 24);
+            this.labelAccountNumber.TabIndex = 0;
+            this.labelAccountNumber.Text = "帳號：";
+            // 
+            // labelName
+            // 
+            this.labelName.AutoSize = true;
+            this.labelName.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labelName.Location = new System.Drawing.Point(30, 70);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(82, 24);
+            this.labelName.TabIndex = 1;
+            this.labelName.Text = "姓名：";
+            // 
+            // labelOpeningAmount
+            // 
+            this.labelOpeningAmount.AutoSize = true;
+            this.labelOpeningAmount.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labelOpeningAmount.Location = new System.Drawing.Point(30, 110);
+            this.labelOpeningAmount.Name = "labelOpeningAmount";
+            this.labelOpeningAmount.Size = new System.Drawing.Size(130, 24);
+            this.labelOpeningAmount.TabIndex = 2;
+            this.labelOpeningAmount.Text = "開戶金額：";
+            // 
+            // textBoxAccountNumber
+            // 
+            this.textBoxAccountNumber.Location = new System.Drawing.Point(110, 27);
+            this.textBoxAccountNumber.Name = "textBoxAccountNumber";
+            this.textBoxAccountNumber.Size = new System.Drawing.Size(200, 29);
+            this.textBoxAccountNumber.TabIndex = 3;
+            // 
+            // textBoxName
+            // 
+            this.textBoxName.Location = new System.Drawing.Point(110, 67);
+            this.textBoxName.Name = "textBoxName";
+            this.textBoxName.Size = new System.Drawing.Size(200, 29);
+            this.textBoxName.TabIndex = 4;
+            // 
+            // textBoxOpeningAmount
+            // 
+            this.textBoxOpeningAmount.Location = new System.Drawing.Point(150, 105);
+            this.textBoxOpeningAmount.Name = "textBoxOpeningAmount";
+            this.textBoxOpeningAmount.Size = new System.Drawing.Size(200, 29);
+            this.textBoxOpeningAmount.TabIndex = 5;
+            // 
+            // buttonOpenAccount
+            // 
+            this.buttonOpenAccount.Font = new System.Drawing.Font("新細明體", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonOpenAccount.Location = new System.Drawing.Point(150, 155);
+            this.buttonOpenAccount.Name = "buttonOpenAccount";
+            this.buttonOpenAccount.Size = new System.Drawing.Size(121, 35);
+            this.buttonOpenAccount.TabIndex = 6;
+            this.buttonOpenAccount.Text = "建立帳戶";
+            this.buttonOpenAccount.UseVisualStyleBackColor = true;
+            this.buttonOpenAccount.Click += new System.EventHandler(this.buttonOpenAccount_Click);
+            // 
+            // OpenAccountForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(400, 250);
+            this.Controls.Add(this.buttonOpenAccount);
+            this.Controls.Add(this.textBoxOpeningAmount);
+            this.Controls.Add(this.textBoxName);
+            this.Controls.Add(this.textBoxAccountNumber);
+            this.Controls.Add(this.labelOpeningAmount);
+            this.Controls.Add(this.labelName);
+            this.Controls.Add(this.labelAccountNumber);
+            this.Name = "OpenAccountForm";
+            this.Text = "建立帳戶";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+    }
+}
