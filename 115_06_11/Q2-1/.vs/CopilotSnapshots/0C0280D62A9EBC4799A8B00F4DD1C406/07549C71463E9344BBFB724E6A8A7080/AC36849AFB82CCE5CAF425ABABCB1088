@@ -1,0 +1,147 @@
+﻿namespace Q2_1
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 設計工具所需的變數。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清除任何使用中的資源。
+        /// </summary>
+        /// <param name="disposing">如果應該處置受控資源則為 true，否則為 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form 設計工具產生的程式碼
+
+        /// <summary>
+        /// 此為設計工具支援所需的方法 - 請勿使用程式碼編輯器修改
+        /// 這個方法的內容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnEdit = new System.Windows.Forms.Button();
+            this.btnQuery = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.lblListTitle = new System.Windows.Forms.Label();
+            this.employeeListBox = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // Form1
+            // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(760, 360);
+            this.Name = "Form1";
+            this.Text = "EmployeeRoster";
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("新細明體", 28F);
+            this.lblTitle.Location = new System.Drawing.Point(24, 18);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(300, 38);
+            this.lblTitle.TabIndex = 0;
+            this.lblTitle.Text = "員工資料管理";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.btnAdd.Location = new System.Drawing.Point(30, 80);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(120, 40);
+            this.btnAdd.TabIndex = 1;
+            this.btnAdd.Text = "新增員工";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // btnDelete
+            // 
+            this.btnDelete.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.btnDelete.Location = new System.Drawing.Point(30, 130);
+            this.btnDelete.Name = "btnDelete";
+            this.btnDelete.Size = new System.Drawing.Size(120, 40);
+            this.btnDelete.TabIndex = 2;
+            this.btnDelete.Text = "刪除員工";
+            this.btnDelete.UseVisualStyleBackColor = true;
+            // 
+            // btnEdit
+            // 
+            this.btnEdit.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.btnEdit.Location = new System.Drawing.Point(30, 180);
+            this.btnEdit.Name = "btnEdit";
+            this.btnEdit.Size = new System.Drawing.Size(120, 40);
+            this.btnEdit.TabIndex = 3;
+            this.btnEdit.Text = "修改員工";
+            this.btnEdit.UseVisualStyleBackColor = true;
+            // 
+            // btnQuery
+            // 
+            this.btnQuery.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.btnQuery.Location = new System.Drawing.Point(30, 230);
+            this.btnQuery.Name = "btnQuery";
+            this.btnQuery.Size = new System.Drawing.Size(120, 40);
+            this.btnQuery.TabIndex = 4;
+            this.btnQuery.Text = "查詢員工";
+            this.btnQuery.UseVisualStyleBackColor = true;
+            // 
+            // btnClose
+            // 
+            this.btnClose.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.btnClose.Location = new System.Drawing.Point(30, 280);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(120, 40);
+            this.btnClose.TabIndex = 5;
+            this.btnClose.Text = "離開";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
+            // 
+            // lblListTitle
+            // 
+            this.lblListTitle.AutoSize = true;
+            this.lblListTitle.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.lblListTitle.Location = new System.Drawing.Point(180, 80);
+            this.lblListTitle.Name = "lblListTitle";
+            this.lblListTitle.Size = new System.Drawing.Size(170, 25);
+            this.lblListTitle.TabIndex = 6;
+            this.lblListTitle.Text = "員工編號與姓名：";
+            // 
+            // employeeListBox
+            // 
+            this.employeeListBox.Font = new System.Drawing.Font("微軟正黑體", 12F);
+            this.employeeListBox.FormattingEnabled = true;
+            this.employeeListBox.ItemHeight = 25;
+            this.employeeListBox.Location = new System.Drawing.Point(180, 110);
+            this.employeeListBox.Name = "employeeListBox";
+            this.employeeListBox.Size = new System.Drawing.Size(520, 225);
+            this.employeeListBox.TabIndex = 7;
+            // 
+            // Add controls
+            // 
+            this.Controls.Add(this.lblTitle);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnEdit);
+            this.Controls.Add(this.btnQuery);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.lblListTitle);
+            this.Controls.Add(this.employeeListBox);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+        }
+
+        #endregion
+    }
+}
+

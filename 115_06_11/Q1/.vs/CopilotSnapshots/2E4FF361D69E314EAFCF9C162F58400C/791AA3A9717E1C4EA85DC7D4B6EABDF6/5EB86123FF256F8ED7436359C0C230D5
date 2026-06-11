@@ -1,0 +1,153 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Q1
+{
+    public struct MorseData
+    {
+        public char Character { get; set; }
+        public string Code { get; set; }
+
+        public MorseData(char character, string code)
+        {
+            Character = character;
+            Code = code;
+        }
+    }
+
+    public partial class Form1 : Form
+    {
+        private List<MorseData> morseList = new List<MorseData>();
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            LoadMorseCodeTable();
+        }
+
+        private void LoadMorseCodeTable()
+        {
+            string filePath = Path.Combine(Application.StartupPath, "morse_code_table.md");
+
+            if (!File.Exists(filePath))
+            {
+                MessageBox.Show("摩斯密碼表檔案不存在。", "錯誤");
+                return;
+            }
+
+            morseList.Clear();
+
+            try
+            {
+                StreamReader inputFile = File.OpenText(filePath);
+                int lineCount = 0;
+
+                while (!inputFile.EndOfStream)
+                {
+                    string line = inputFile.ReadLine();
+                    lineCount++;
+
+                    // Skip header (first two lines)
+                    if (lineCount <= 2)
+                        continue;
+
+                    if (string.IsNullOrWhiteSpace(line))
+                        continue;
+
+                    string[] parts = line.Split('|');
+
+                    if (parts.Length < 3)
+                        continue;
+
+                    string charStr = parts[1].Trim();
+                    string code = parts[2].Trim();
+
+                    if (string.IsNullOrWhiteSpace(charStr) || string.IsNullOrWhiteSpace(code))
+                        continue;
+
+                    char character;
+                    if (charStr == "space")
+                    {
+                        character = ' ';
+                    }
+                    else
+                    {
+                        character = charStr[0];
+                    }
+
+                    morseList.Add(new MorseData(character, code));
+                }
+
+                inputFile.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("讀取摩斯密碼表時出錯：" + ex.Message, "錯誤");
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConvertToMorse();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ClearAll();
+        }
+
+        private void ConvertToMorse()
+        {
+            // Clear previous output
+            textBox2.Clear();
+            listBox1.Items.Clear();
+
+            string inputText = textBox1.Text;
+
+            if (string.IsNullOrEmpty(inputText))
+            {
+                return;
+            }
+
+            // Convert to uppercase
+            inputText = inputText.ToUpper();
+
+            List<string> morseResults = new List<string>();
+
+            foreach (char c in inputText)
+            {
+                // Search for the character in the morse list
+                MorseData found = morseList.FirstOrDefault(m => m.Character == c);
+
+                if (found.Character != '\0' || (c == ' ' && morseList.Any(m => m.Character == ' ')))
+                {
+                    morseResults.Add(found.Code);
+                    listBox1.Items.Add(c + " : " + found.Code);
+                }
+                // If character not found, simply ignore it
+            }
+
+            // Combine all morse codes with space between them
+            textBox2.Text = string.Join(" ", morseResults);
+        }
+
+        private void ClearAll()
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            listBox1.Items.Clear();
+        }
+    }
+}
